@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DBD1CB;
+}
+ 
+.container {
+    display: flex;
+    gap: 20px;
+}
+ 
+.login-container, .cadastro-container {
+    background-color: #4B556D;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+ 
+.title {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+.login-form, .cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.icon, .logo {
+    height: 10px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+   
+}
+
+ 
+label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+ 
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+.imagemuser{
+    width: 50PX;
+    margin-bottom: 30px;
+}
+
+.imagemuser2{
+    width: 50PX;
+    margin-bottom: 30px;
+    right: 140%;
+    
+  
+}
+
+
